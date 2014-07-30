@@ -19,17 +19,16 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }
-<<<<<<< HEAD
+
 - (void)viewWillAppear:(BOOL)animated{
     
 }
 
-=======
 - (void)viewDidAppear:(BOOL)animated
 {
 	
 }
->>>>>>> FETCH_HEAD
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
