@@ -21,6 +21,7 @@
 		2CBBEF731988EF46002B9B82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CBBEF551988EF46002B9B82 /* UIKit.framework */; };
 		2CBBEF7B1988EF46002B9B82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CBBEF791988EF46002B9B82 /* InfoPlist.strings */; };
 		2CBBEF7D1988EF46002B9B82 /* SampleGitProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBBEF7C1988EF46002B9B82 /* SampleGitProjectTests.m */; };
+		2CBBEF881988F5CC002B9B82 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CBBEF871988F5CC002B9B82 /* NextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		2CBBEF781988EF46002B9B82 /* SampleGitProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleGitProjectTests-Info.plist"; sourceTree = "<group>"; };
 		2CBBEF7A1988EF46002B9B82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2CBBEF7C1988EF46002B9B82 /* SampleGitProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleGitProjectTests.m; sourceTree = "<group>"; };
+		2CBBEF861988F5CC002B9B82 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		2CBBEF871988F5CC002B9B82 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				2CBBEF631988EF46002B9B82 /* Main.storyboard */,
 				2CBBEF661988EF46002B9B82 /* ViewController.h */,
 				2CBBEF671988EF46002B9B82 /* ViewController.m */,
+				2CBBEF861988F5CC002B9B82 /* NextViewController.h */,
+				2CBBEF871988F5CC002B9B82 /* NextViewController.m */,
 				2CBBEF691988EF46002B9B82 /* Images.xcassets */,
 				2CBBEF581988EF46002B9B82 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CBBEF681988EF46002B9B82 /* ViewController.m in Sources */,
+				2CBBEF881988F5CC002B9B82 /* NextViewController.m in Sources */,
 				2CBBEF621988EF46002B9B82 /* AppDelegate.m in Sources */,
 				2CBBEF5E1988EF46002B9B82 /* main.m in Sources */,
 			);
